@@ -172,3 +172,17 @@ def square_root(self, x):
 def power(self, base, exponent):
     """Calculate base raised to the power of exponent."""
     return power(base, exponent)
+
+class Calculator:
+    """Calculator class to perform arithmetic operations."""
+    
+    def __init__(self):
+        """Initialize calculator with memory set to 0 and empty display."""
+        self.memory = 0
+        self.display = "0"
+    
+    # Add this method
+    def update_display(self, value):
+        """Update the calculator display."""
+        self.display = str(value)
+        

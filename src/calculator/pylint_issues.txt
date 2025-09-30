@@ -1,0 +1,2 @@
+Intial score: 7.50
+issue:  C0304: Final newline missing (missing-final-newline)

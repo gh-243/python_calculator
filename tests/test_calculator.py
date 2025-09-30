@@ -43,3 +43,4 @@ def test_multiply_by_zero():
     assert multiply(5, 0) == 0
     assert multiply(0, 5) == 0
     assert multiply(0, 0) == 0
+    
